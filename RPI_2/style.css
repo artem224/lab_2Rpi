@@ -1,0 +1,110 @@
+
+.content{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h1{
+    font-size: 3rem;
+    display: block;
+    margin: 2% 0;
+}
+
+.notification {
+    user-select: none;
+    width:440px;
+    background: #ffffff;
+    position: fixed;
+    z-index: 10;
+    top: 2%;
+    right: 2%;
+    border-radius: 8%;
+    Box-shadow: 4px 3px 7px 0px rgba(169, 159, 151, 0.26);
+}
+
+.close{
+    display: none;
+}
+
+.wrapper{
+    margin: 4%;
+}
+
+.tip{
+    user-select: text;
+    width: 90%;
+    height: 123px;
+    overflow: hidden;
+    display: inline-block;
+    margin-bottom: 8%;
+}
+
+.tip:first-line{
+    font-weight: bold;
+}
+
+.icon-cancel:before {
+    font-size: 24px;
+    color: #d9d9d9;
+    position: absolute;
+    right: 3%;
+    top: 5%;
+    cursor: pointer;
+}
+
+.control{
+    display: flex;
+    justify-content: space-between;
+}
+
+.checkbox-wrapper{
+    cursor: pointer;
+    display: inline-block;
+}
+
+label{
+    color: #b4adad;
+    font-size: 15px;
+}
+
+input[type="checkbox"] {
+    transform: scale(1.5,1.5);
+}
+
+.radio-wrapper{
+    display: inline-block;
+    position: relative;
+    bottom: 3px;
+}
+
+.radio-item{
+    display: inline-block;
+    width: 10px;
+    height: 10px;
+    background-color: #e0e0e0;
+    border-radius: 50%;
+    margin: 0 4px;
+    cursor: pointer;
+}
+
+.current{
+    background-color: dodgerblue;
+}
+
+.nav{
+    display: inline-block;
+    color: #d9d9d9;
+    font-size: 24px;
+}
+
+nav>i{
+    cursor: pointer;
+}
+
+nav>i:hover{
+    color: dodgerblue;
+}
+
